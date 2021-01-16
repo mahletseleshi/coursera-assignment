@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-size: 16px;
+    color: rgb(255, 228, 192);
+    background-color:darksalmon;
+}
+#header-nav{
+    background-color:chocolate;
+    width: 100%;
+    height: 100px;
+    display: block;
+}
+a{
+    font-size: 40px;
+    font-weight:bolder;
+    text-underline-offset: none;
+    color: black;
+}
+h1{ 
+    font-size: 50px; 
+    text-align: center;
+    font-weight: bolder;
+    color:black
+}
+#main-content{
+    box-sizing:border-box;
+    background-color:chocolate;
+    border-color: black;
+    height:fit-content;
+
+}
+#main-content>h2{
+    color:black;
+    font-size:40px;
+    text-align:center;
+}
+#main-content>p{
+    color: black;
+    font-size:20px;
+    text-align:center;
+}
+.navbar-toggler-icon{
+     background-color:indigo;
+     
+}
+
+.dropdown-item{
+    font-size:50px;
+    color:indigo;
+    text-align: center;
+    background-color:darksalmon;
+}
+@media(min-width: 1200px){
+    .navbar-toggler-icon{
+    visibility: hidden;
+      Outline: hidden;
+}
+}
+@media(min-width:992px) and  (max-width: 1199px){
+    .navbar-toggler-icon{
+       
+               visibility: hidden;
+               outline: hidden;
+}
+     
+     
+        
+    }
+@media(min-width: 768px) and (max-width: 991px){
+    .navbar-toggler-icon{
+        visibility: hidden;
+        outline:hidden;
+
+}
+
+}
+@media(max-width: 767px){
+ .navbar-toggler-icon{
+    background-color: indigo;
+    visibility: visible;
+    opacity: .5;
+
+}
+h1{ 
+    font-size: 50px; 
+    text-align: center;
+    font-weight: bolder;
+    color:black;
+    height: 100px;
+
+}
+}
