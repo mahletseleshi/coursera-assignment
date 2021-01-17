@@ -88,9 +88,24 @@ h1{
 h1{ 
     font-size: 50px; 
     text-align: center;
-    font-weight: bolder;
     color:black;
     height: 100px;
+}
+.dropdown-item{
+    font-size:20px;
+    box-sizing:content-box;
+    color:indigo;
+    text-align: center;
+    background-color:darksalmon;
+    background-size: 100rem;
+    margin: 0;
+    padding: 0;
+}
+.navbar navbar-expand-sm navbar-dark bg-dark{
+    background-size: contain;
+    background-color: indigo;
+}
+}
 
-}
-}
+
+
